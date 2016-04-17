@@ -30,12 +30,16 @@ In order to generate task 2 to solve the predator-prey model,ODE system with ode
 
 Put your graphs here and explain.
 
-When the y0 is 0.1, yi is 1.0
+When the y0 is 0.1, y1 is 1.0
+
 ![Case 1.png](Case 1.png)
+
 ![Prey 1.png](Prey 1.png)
 
 When y0 is 0.11, y1 is 1.0
+
 ![Case 2.png](Case 2.png)
+
 ![prey 2.png](prey 2.png)
 
 From the graphs shown above, there were just a minor changed in the ouput when there is a changed in the initial condition y0 from 0.1 to 0.11. Meanwhile, the number of prey appeared to be lowest when the predator showed highest number. This indicates that there is an inverse relationship between them. So, when the time increase, the prey will increase while there is a decrease in predators.
