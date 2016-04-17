@@ -1,13 +1,16 @@
 import numpy as np
 import sympy as sy
-#Your optional code here
-#You can import some modules or create additional functions
 
 # DO NOT CHANGE THE NAME OF gausslegendre() function
 def gausslegendre(f, a, b, n=20):
-    ans = 0
-    # Edit here to implement your code
-
+    
+    [pt,weight] = np.polynomial.legendre.leggauss(n)
+    
+    pt = 0.5 * (b-a) * pt + 0.5 * (a+b )
+    y = f(pt)
+    
+    ans = (0.5*(b-a)*np.dot(weight, y ))
+    
     return ans
 
 if __name__ == "__main__":
@@ -20,4 +23,4 @@ if __name__ == "__main__":
         return ans
     
     print('Answer:                    I = ', my_integral())
-    print('Your implementation gives: I = ', gausslegendre(f, 0,1))
+    print('Your implementation gives: I = ', gausslegendre(f, 0,1,))
