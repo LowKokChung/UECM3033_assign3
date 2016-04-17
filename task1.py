@@ -1,6 +1,5 @@
 import numpy as np
 import sympy as sy
-import numpy.polynomial.legendre.leggauss as npl
 
 # DO NOT CHANGE THE NAME OF gausslegendre() function
 def gausslegendre(f, a, b, n=20):
