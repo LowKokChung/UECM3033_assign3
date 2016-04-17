@@ -15,7 +15,7 @@ if __name__ == "__main__":
     y0p = a * (y0 - y0 * y1)
     y1p = b * (-y1 + y0 * y1)
     
-    
+  #Case 1  
     yy0 = [0.1,1.0] #[y0,y1]
     t= np.linspace(0,5, 100)
     sol = odeint(pend,yy0,t, args=(a,b))
@@ -34,6 +34,7 @@ if __name__ == "__main__":
     plt.show()
    
  #To test the sensitivity  
+ #Case 2
     yy0 = [0.11,1.0] #[y0,y1]
     t= np.linspace(0,5, 100)
     sol = odeint(pend,yy0,t, args=(a,b))
