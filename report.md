@@ -40,7 +40,7 @@ When y0 is 0.11, y1 is 1.0
 
 ![Case 2.png](Case 2.png)
 
-![prey 2.png](prey 2.png)
+![prey2.png](prey2.png)
 
 From the graphs shown above, there were just a minor changed in the ouput when there is a changed in the initial condition y0 from 0.1 to 0.11. Meanwhile, the number of prey appeared to be lowest when the predator showed highest number. This indicates that there is an inverse relationship between them. So, when the time increase, the prey will increase while there is a decrease in predators.
 
@@ -50,4 +50,5 @@ No, the system of ODE is not sensitive to initial condition. If the system of OD
 
 -----------------------------------
 
-<sup>last modified: change your date here</sup>
+<sup>last modified: 17.4.2016</sup>
+  
